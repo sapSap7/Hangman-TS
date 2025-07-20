@@ -1,0 +1,23 @@
+.restart-button {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.restart-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+}
+
+/* Add futuristic or modern hover effect */
+.restart-button:hover .restart-icon {
+  transform: scale(1.15);
+  filter: drop-shadow(0 0 8px rgba(0, 255, 255, 0.6));
+}

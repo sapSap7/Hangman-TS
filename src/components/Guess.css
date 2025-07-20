@@ -1,0 +1,38 @@
+.guess-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.letter-box {
+  width: 40px;
+  height: 60px;
+  border-bottom: 4px solid #000;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdfdfd;
+  font-family: inherit;
+  text-decoration: none; /* prevents unwanted underlines */
+  line-height: 1; /* prevent baseline issues */
+}
+
+.letter {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1c1917;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.letter.missed {
+  color: #be123c;
+}
+
+.letter-space {
+  width: 40px;
+  height: 60px;
+}
